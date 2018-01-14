@@ -1,4 +1,4 @@
-function parent() {
+function parent(inaccessible) {
   var innerVariable = "Go to your room!";
   console.log(inaccessible)
   return function childe() {
